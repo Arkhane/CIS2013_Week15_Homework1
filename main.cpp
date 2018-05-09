@@ -9,7 +9,7 @@ using namespace std;
 
 int RandomCard()
 {
-	return rand() % 52;
+	return (rand() % 52) + 1;
 }
 
 int main()
