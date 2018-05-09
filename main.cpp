@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include <time.h>
+#include <ctime>
+#include <cstdlib>
 #include "Player.h"
 #include "Card.h"
 
@@ -17,5 +18,5 @@ int main()
 	int randCard = 0;
 	char call;
 
-	srand(time(NULL));
+	srand(time(0));
 }
