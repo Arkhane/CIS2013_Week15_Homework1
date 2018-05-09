@@ -19,4 +19,10 @@ int main()
 	char call;
 
 	srand(time(0));
+
+	Player Dealer;
+
+	Dealer.setName = "Dealer";
+
+	cout << Dealer.getName;
 }
